@@ -1,0 +1,120 @@
+#titulo {
+  color: tomato;
+}
+
+p.texto {
+  color: blue;
+}
+
+p.especial {
+  color: brown;
+}
+
+div p {
+  color: aquamarine;
+}
+
+div h2,
+div h3 {
+  color: chartreuse;
+}
+/*
+* {
+  font-size: 24px;
+  color: black;
+}
+
+.color {
+  color: #00f;
+}
+.color {
+  color: rgb(green, green, blue);
+}
+ */
+.color {
+  border-style: solid;
+  border-color: darkslategrey;
+  border-radius: 5px;
+  border-width: 2rem;
+}
+#fondo {
+  background-color: rgba(255, 0, 0);
+  height: 3 00px;
+  background-image: url('download.png');
+  background-size: contain;
+  height: 100px;
+}
+.margen {
+  background-color: chocolate;
+  margin: 15px;
+  padding: 30px 15px 5px;
+  border: solid 10px black;
+  height: 100px;
+  width: 50px;
+  overflow: scroll;
+  outline: 10px solid red;
+}
+.text {
+  font-family: 'roboto', sans-serif;
+  text-align: center;
+  text-decoration: underline;
+  text-shadow: 3px 5px 5px blue;
+}
+ul {
+  background-color: cyan;
+  list-style-type: georgian;
+  padding-left: p;
+}
+
+table {
+  width: 100%;
+border-collapse: collapse;
+}
+th,td {
+  border: solid 1px #eee;
+  padding: 5px;
+}
+
+th{
+  background-color: tomato;
+  color: white;
+  text-align: left;
+}
+
+tr:hover{
+  background-color: #aaa;
+  cursor: pointer;
+}
+
+tr:nth-child(even){
+  background-color: #eee;
+}
+
+span{
+  display: block;
+  max-width: 300px;
+  background-color: darkmagenta;
+}
+
+.inline {
+  display: inline;
+}
+
+#position {
+  position: sticky;
+  left: 20px;
+  top: 20px;
+}
+
+.left {
+  float: left;
+  width: 100px;
+}
+
+.rigth{
+  float: right;
+}
+
+.container {
+  height: 200px;
+}
